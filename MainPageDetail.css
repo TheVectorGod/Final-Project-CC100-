@@ -1,7 +1,17 @@
 body{
-    text-decoration: none;  
+    text-decoration: none; 
+    
+}
+li{
+    font-size: 21px;
+    list-style: none;
+    display: inline;
 }
 
-#navbar{
-    background: beige; font-family: 'Times New Roman', Times, ser;
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: beige; font-family: 'Times New Roman', Times;
+    padding-left: 30px; padding-right: 30px;
 }
