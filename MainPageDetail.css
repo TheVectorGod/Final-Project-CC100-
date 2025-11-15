@@ -1,17 +1,96 @@
-body{
-    text-decoration: none; 
-    
-}
-li{
-    font-size: 21px;
-    list-style: none;
-    display: inline;
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
 
-.navbar{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    background: beige; font-family: 'Times New Roman', Times;
-    padding-left: 30px; padding-right: 30px;
+body {
+  margin: 0;
+  padding-top: 90px; /* pushes content under fixed navbar */
+  font-family: "Times New Roman", Times;
+}
+
+/* NAVBAR FIXED */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #f9f9dd;
+  box-sizing: border-box;
+}
+
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  flex-wrap: nowrap;
+}
+
+
+
+.navbar li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 21px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #d5d5af;
+}
+
+.navbar button a {
+  text-decoration: none;
+  color: black;
+}
+
+/* TOP SECTION */
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN CONTENT WRAPPER */
+.sec2-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+  padding: 10px;
+  gap: 20px;
+}
+
+/* BOXES */
+.sec2-box1,
+.sec2-box2 {
+  width: 500px;
+  min-height: 350px;
+  font-size: 20px;
+  background: beige;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* CONTACT + SUPPORT */
+.contact-section,
+.support-section {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f7f7d5;
 }
