@@ -1,17 +1,64 @@
-body{
-    text-decoration: none; 
-    
+body {
+  text-decoration: none;
 }
-li{
-    font-size: 21px;
-    list-style: none;
-    display: inline;
+li {
+  font-size: 21px;
+  list-style: none;
+  display: inline;
 }
 
-.navbar{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    background: beige; font-family: 'Times New Roman', Times;
-    padding-left: 30px; padding-right: 30px;
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background: beige;
+  font-family: "Times New Roman", Times;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sec2-wrap {
+  display: flex;
+  justify-content: center;
+
+  margin-right: 12px;
+  margin-left: 12px;
+
+  padding-right: 10px;
+  padding-left: 10px;
+  padding: 5px;
+}
+
+.sec2-box1 {
+  display: block;
+  width: 500px;
+  height: 350px;
+  font-size: 20px;
+
+  background: beige;
+
+  border: none;
+  border-radius: 20px;
+
+  margin-right: 12px;
+  margin-left: 12px;
+
+  padding: 20px;
+}
+
+.sec2-box2 {
+  display: block;
+  width: 500px;
+  height: 350px;
+  font-size: 20px;
+
+  background: beige;
+
+  border: none;
+  border-radius: 20px;
+
+  margin-right: 12px;
+  margin-left: 12px;
+
+  padding: 20px;
 }
