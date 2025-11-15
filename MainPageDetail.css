@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id]{
+    scroll-margin-top: 200px;
+}
+
 body {
   margin: 0;
   padding-top: 90px; /* pushes content under fixed navbar */
@@ -60,6 +64,7 @@ body {
 
 /* TOP SECTION */
 .home-section {
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -79,6 +84,7 @@ body {
 /* BOXES */
 .sec2-box1,
 .sec2-box2 {
+
   width: 500px;
   min-height: 350px;
   font-size: 20px;
