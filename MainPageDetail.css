@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id]{
+    scroll-margin-top: 200px;
+}
+
 body {
   margin: 0;
   padding-top: 90px; /* pushes content under fixed navbar */
@@ -24,14 +28,11 @@ body {
   box-sizing: border-box;
 }
 
-
 .navbar ul {
   display: flex;
   gap: 25px;
   flex-wrap: nowrap;
 }
-
-
 
 .navbar li {
   display: inline;
@@ -84,7 +85,16 @@ body {
   font-size: 20px;
   background: beige;
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px;
+  text-align: justify;
+}
+
+.sec2-box1 h2 {
+  text-align: left;
+}
+
+.sec2-box2 h2 {
+  text-align: left;
 }
 
 /* CONTACT + SUPPORT */
