@@ -25,6 +25,7 @@ body {
   width: 100%;
   z-index: 1000;
   background: #c3ce96;
+  background: #c3ce96;
   box-sizing: border-box;
 }
 
@@ -105,9 +106,20 @@ body {
 
 .sec2-box2 h2 {
   text-align: left;
+  padding: 25px;
+  text-align: justify;
+}
+
+.sec2-box1 h2 {
+  text-align: left;
+}
+
+.sec2-box2 h2 {
+  text-align: left;
 }
 
 /* CONTACT + SUPPORT */
+.featured-section,
 .featured-section,
 .contact-section,
 .support-section {
