@@ -137,9 +137,6 @@ body {
   padding: 20px;
 }
 
-.slide-content::-webkit-scrollbar {
-  display: none;
-}
 
 
 .article-card {
