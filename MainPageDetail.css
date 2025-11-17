@@ -24,18 +24,15 @@ body {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #f9f9dd;
+  background: #c3ce96;
   box-sizing: border-box;
 }
-
 
 .navbar ul {
   display: flex;
   gap: 25px;
   flex-wrap: nowrap;
 }
-
-
 
 .navbar li {
   display: inline;
@@ -62,14 +59,23 @@ body {
   color: black;
 }
 
+.home-section h1{
+  color: white;
+  font-size: 72px;
+  outline: solid white;
+  padding: 15px;
+  backdrop-filter: blur(2px);
+}
 /* TOP SECTION */
 .home-section {
-
+  background-size: cover;
+  background-image: url(CorruptionBG.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 /* MAIN CONTENT WRAPPER */
@@ -84,16 +90,25 @@ body {
 /* BOXES */
 .sec2-box1,
 .sec2-box2 {
-
   width: 500px;
   min-height: 350px;
   font-size: 20px;
   background: beige;
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px;
+  text-align: justify;
+}
+
+.sec2-box1 h2 {
+  text-align: left;
+}
+
+.sec2-box2 h2 {
+  text-align: left;
 }
 
 /* CONTACT + SUPPORT */
+.featured-section,
 .contact-section,
 .support-section {
   min-height: 100vh;
