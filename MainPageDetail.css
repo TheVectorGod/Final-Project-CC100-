@@ -98,6 +98,7 @@ body {
 }
 
 /* CONTACT + SUPPORT */
+.featured-section,
 .contact-section,
 .support-section {
   min-height: 100vh;
