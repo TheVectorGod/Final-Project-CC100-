@@ -2,7 +2,7 @@
 html {
   scroll-behavior: smooth;
 }
-
+/*para nde lumampas sa sections*/
 section[id]{
     scroll-margin-top: 200px;
 }
@@ -21,10 +21,8 @@ body {
   padding: 20px 40px;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 1000;
-  background: #c3ce96;
   background: #c3ce96;
   box-sizing: border-box;
 }
@@ -36,6 +34,7 @@ body {
 }
 
 .navbar li {
+  
   display: inline;
   list-style: none;
   margin-right: 20px;
@@ -65,7 +64,7 @@ body {
   font-size: 72px;
   outline: solid white;
   padding: 15px;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(7px);
 }
 /* TOP SECTION */
 .home-section {
@@ -119,11 +118,14 @@ body {
 }
 
 /* CONTACT + SUPPORT */
-.featured-section,
-.featured-section,
+.featured-section{
+  min-width: 100vh;
+  padding: 40px;
+  background-color: #f7f7d5;
+}
 .contact-section,
 .support-section {
   min-height: 100vh;
   padding: 40px;
-  background: #f7f7d5;
+  background: #636363;
 }
