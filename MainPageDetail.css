@@ -191,13 +191,6 @@ body {
   text-align: left;
 }
 
-/*OUR STORY*/
-.story-section{
-  min-height: 50vh;
-  padding: 40px;
-  background: #a3b18a;
-}
-
 /* FEATURED */
 .featured-section{
   min-width: 100vh;
@@ -209,7 +202,6 @@ body {
   text-align: center;
   font-size: 32px;
   color: black;
-  font-weight: bold;
 }
 
 .slide-content {
@@ -240,121 +232,166 @@ body {
   opacity: 1;
 }
 
-.support-section{
-  min-height: 50vh;
-  padding: 40px;
-  background: #f7f7d5;
+/*OUR STORY*/
+/* OUR STORY */
+.story-section {
+  text-align: center;
+  font-size: 32px;
+  color: white; /* white text looks better on dark green */
+  background: #344e41;
+  padding: 60px 20px; /* adds internal spacing */
+  margin: 0; /* remove default spacing from browser */
 }
 
-/*SUPPORT FORM */
-/* 2-COLUMN FORM LAYOUT */
-.forms-wrapper {
+.story-section h2 {
+  margin: 0 0 30px 0; /* bottom margin only */
+  font-size: 36px;
+}
+
+.story-box {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  padding: 40px;
-  background: #e7e7c5;
-  flex-wrap: wrap; /* For responsiveness */
 }
 
-/* SHARED BOX STYLE */
-.donation-section,
-.message-section {
-  width: 450px;
-  padding: 30px;
-  background: #ffffffd5;
-  border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.donation-section h2,
-.message-section h2 {
-  margin-bottom: 10px;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.donation-section p,
-.message-section p {
-  font-size: 15px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* FORM ELEMENTS */
-.donation-form,
-.message-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.donation-form label,
-.message-form label {
-  text-align: left;
-  font-weight: 600;
-}
-
-.donation-form input,
-.message-form input,
-.donation-form textarea,
-.message-form textarea {
-  padding: 10px 14px;
-  border: 1.5px solid #ccc;
-  border-radius: 8px;
-  font-size: 16px;
-}
-
-.donation-form input:focus,
-.message-form input:focus,
-.donation-form textarea:focus,
-.message-form textarea:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-/* BUTTONS */
-.donate-btn,
-.msg-btn {
-  margin-top: 10px;
-  padding: 12px 0;
-  border: none;
+.story1-box {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1); /* optional slight overlay for readability */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: justify;
   color: white;
-  font-size: 17px;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  width: 100%;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-.donate-btn {
-  background: #28a745;
+
+/* SUPPORT SECTION */
+.support-section {
+  background: #f7f7d5; /* light beige */
+  padding: 60px 20px;
+  margin: 0; /* remove extra gaps */
 }
 
-.donate-btn:hover {
-  background: #1f7e34;
-}
-
-.msg-btn {
-  background: #28a745;
-}
-
-.msg-btn:hover {
-  background: #1f7e34;
-}
-
-.contact-section{
-  min-height: 10vh;
-  padding: 10px;
-  background: #344e41;
-  font-size:30px;
-}
-
-.footer{
-  background-color: #c3ce96;
+.support-section h2 {
+  margin: 0 0 40px 0; /* only bottom margin */
   text-align: center;
-  padding: 15px;
+}
+
+.forms-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* SHARED BOX STYLE */ 
+.donation-section, 
+.message-section { 
+  width: 450px; 
+  padding: 30px; 
+  background: #ffffffd5; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
+  text-align: center; 
+} 
+
+.donation-section h2, 
+.message-section h2 { 
+  margin-bottom: 10px; 
+  font-size: 28px; 
+  font-weight: 700; 
+} 
+
+.donation-section p, 
+.message-section p { 
+  font-size: 15px; 
+  margin-bottom: 20px; 
+  color: #333; 
+} 
+
+/* FORM ELEMENTS */ 
+.donation-form, 
+.message-form { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px; 
+} 
+
+.donation-form label, 
+.message-form label { 
+  text-align: left; 
+  font-weight: 600; 
+} 
+
+.donation-form input, 
+.message-form input, 
+.donation-form textarea, 
+.message-form textarea { 
+  padding: 10px 14px; 
+  border: 1.5px solid #ccc; 
+  border-radius: 8px; font-size: 16px; 
+} 
+
+.donation-form input:focus, 
+.message-form input:focus, 
+.donation-form textarea:focus, 
+.message-form textarea:focus { 
+  border-color: #007bff; 
+  outline: none;
+ } 
+ 
+ /* BUTTONS */ 
+ .donate-btn, 
+ .msg-btn { 
+    margin-top: 10px; 
+    padding: 12px 0; 
+    border: none; 
+    color: white; 
+    font-size: 17px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s ease; 
+    width: 100%; 
+  } 
+  
+  .donate-btn { 
+    background: #28a745; 
+  } 
+  
+  .donate-btn:hover { 
+    background: #1f7e34; 
+  } 
+  
+  .msg-btn { 
+    background: #28a745; 
+  } 
+  
+  .msg-btn:hover { 
+    background: #1f7e34; 
+  }
+
+/* CONTACT SECTION */
+.contact-section {
+  background: #344e41; /* dark green */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.contact-section a {
+  color: #f7f7d5;
+  text-decoration: underline;
+}
+
+/* FOOTER SECTION */
+.footer {
+  background-color: #c3ce96; /* green-beige */
+  text-align: center;
+  padding: 20px;
+  margin: 0;
   font-size: 16px;
+  clear: both; /* ensures it sits below previous sections */
 }
