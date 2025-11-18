@@ -181,6 +181,104 @@ body {
   padding: 20px;
 }
 
+/*SUPPORT FORM */
+/* 2-COLUMN FORM LAYOUT */
+.forms-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  background: #e7e7c5;
+  flex-wrap: wrap; /* For responsiveness */
+}
+
+/* SHARED BOX STYLE */
+.donation-section,
+.message-section {
+  width: 450px;
+  padding: 30px;
+  background: #ffffffd5;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.donation-section h2,
+.message-section h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.donation-section p,
+.message-section p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* FORM ELEMENTS */
+.donation-form,
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.donation-form label,
+.message-form label {
+  text-align: left;
+  font-weight: 600;
+}
+
+.donation-form input,
+.message-form input,
+.donation-form textarea,
+.message-form textarea {
+  padding: 10px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.donation-form input:focus,
+.message-form input:focus,
+.donation-form textarea:focus,
+.message-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* BUTTONS */
+.donate-btn,
+.msg-btn {
+  margin-top: 10px;
+  padding: 12px 0;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.donate-btn {
+  background: #28a745;
+}
+
+.donate-btn:hover {
+  background: #1f7e34;
+}
+
+.msg-btn {
+  background: #28a745;
+}
+
+.msg-btn:hover {
+  background: #1f7e34;
+}
 
 
 .article-card {
