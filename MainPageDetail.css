@@ -192,6 +192,34 @@ body {
 }
 
 /* FEATURED */
+/* Featured title */
+.featured-section h2 {
+  text-align: center;
+  font-size: 40px;   /* make the "Featured" text bigger */
+  margin-bottom: 20px;
+}
+
+/* Article title */
+.article-card h4 {
+  font-size: 50px;   /* increase title size */
+  text-align: center;
+}
+
+/* Article paragraph text */
+.article-card p {
+  font-size: 25px;   /* increase paragraph size */
+  text-align: center; /* center text */
+  line-height: 1.6;
+}
+
+/* Read Article link */
+.link-to-article {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
 .featured-section{
   min-width: 100vh;
   padding: 40px;
