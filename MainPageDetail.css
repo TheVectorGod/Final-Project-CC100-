@@ -161,6 +161,13 @@ body {
   text-align: left;
 }
 
+/*OUR STORY*/
+.story-section{
+  min-height: 50vh;
+  padding: 40px;
+  background: #a3b18a;
+}
+
 /* CONTACT + SUPPORT */
 .featured-section{
   min-width: 100vh;
