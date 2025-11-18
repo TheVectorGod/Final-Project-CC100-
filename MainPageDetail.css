@@ -68,15 +68,59 @@ body {
 }
 /* TOP SECTION */
 .home-section {
-  background-size: cover;
-  background-image: url(CorruptionBG.jpg);
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  position: relative;
+  overflow: hidden;
 }
+
+/* SLIDESHOW LAYERS */
+.home-section::before,
+.home-section::after,
+.third {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: fadeBG 12s infinite;
+  z-index: -1;
+  filter: brightness(70%);
+}
+
+/* IMAGE 1 */
+.home-section::before {
+  background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iEyAvRnTitG8/v0/-1x-1.webp");
+  animation-delay: 0s;
+}
+
+/* IMAGE 2 */
+.home-section::after {
+  background-image: url("CorruptionBG.jpg");
+  animation-delay: 4s;
+}
+
+/* IMAGE 3 */
+.third {
+  background-image: url("https://img.hghlnd.com/imgix/https://detroitcatholic.nyc3.digitaloceanspaces.com/20250922T1025-MANILA-ANTI-CORRUPTION-PROTEST-1804661.JPG?w=2400&h=1350&fit=crop&crop=faces");
+  animation-delay: 8s;
+}
+
+/* FADE ANIMATION */
+@keyframes fadeBG {
+  0% { opacity: 1; }
+  25% { opacity: 1; }
+  33% { opacity: 0; }
+  92% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 
 /* MAIN CONTENT WRAPPER */
 .sec2-wrap {
