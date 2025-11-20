@@ -162,31 +162,26 @@ body {
           gap: 20px;
           background-color: #f7f7d5;
         }
-          /* BOXES */
-          .sec2-box1,
-          .sec2-box2 {
-            width: 500px;
-            min-height: 350px;
-            font-size: 20px;
-            background: #e7e7c5;
-            border-radius: 20px;
-            padding: 25px;
-            text-align: justify;
-          }
-            .sec2-box1 h2 {
-              text-align: left;
-            }
-              .sec2-box2 h2 {
-                text-align: left;
-                padding: 25px;
-                text-align: justify;
-              }
-                .sec2-box1 h2 {
-                  text-align: left;
-                }
-                  .sec2-box2 h2 {
-                    text-align: left;
-                  }
+
+        /* BOXES */
+        .sec2-box1,
+        .sec2-box2 {
+          width: 500px;
+          min-height: 350px;
+          font-size: 20px;
+          background: #e7e7c5;
+          border-radius: 20px;
+          padding: 25px;
+          text-align: justify;
+        }
+
+        /* Center the headings */
+        .sec2-box1 h2,
+        .sec2-box2 h2 {
+          text-align: center;
+          margin-bottom: 15px;
+        }
+
 
 /* <!-- FEATURED SECTION --> */
   /* Featured title */
