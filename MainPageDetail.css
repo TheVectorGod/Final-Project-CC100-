@@ -334,22 +334,33 @@ body {
                           color: #444;
                           margin-top: auto;
                         }
-                          .story-section::before,
-                          .story-section::after {
+                          .story-section::before {
                             content: "";
                             position: absolute;
                             top: 50%;
-                            width: 300px;
+                            width: 1000px;
                             height: 1000px;
-                            background-image: url('https://images.stockcake.com/public/e/2/9/e29de7af-e940-42a7-9700-8d7184b31b96_large/magnifying-glass-reading-stockcake.jpg');
+                            background-image: url('POSTER-1.png');
                             background-size: contain;
                             background-repeat: no-repeat;
-                            opacity: 0.08;
+                            opacity: 5.08;
                             transform: translateY(-50%);
                           }
+                            .story-section::after {
+                              content: "";
+                              position: absolute;
+                              top: 50%;
+                              width: 500px;
+                              height: 800px;
+                              background-image: url('POSTER-2.png');
+                              background-size: contain;
+                              background-repeat: no-repeat;
+                              opacity: 5.08;
+                              transform: translateY(-50%);
+                            }
 
-                            .story-section::before { left: 5%; }
-                            .story-section::after { right: 5%; }
+                              .story-section::before { left: 5%; }
+                              .story-section::after { right: 5%; }
 
 
 /* <!-- SUPPORT SECTION --> */
