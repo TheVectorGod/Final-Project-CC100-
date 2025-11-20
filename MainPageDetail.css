@@ -10,7 +10,7 @@ section[id]{
 body {
   margin: 0;
   padding-top: 90px; /* pushes content under fixed navbar */
-  font-family: "Times New Roman", Times;
+  font-family: Arial, sans-serif;
 }
 
 /* NAVBAR CONTENT */
