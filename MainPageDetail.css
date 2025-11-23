@@ -470,6 +470,15 @@ body {
       text-decoration: underline;
     }
 
+      .X-img:hover,
+      .facebook-img:hover,
+      .instagram-img:hover,
+      .discord-img:hover {
+              color: white;
+              transform: scale(1.2); 
+              text-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+            }
+
 /* <!-- FOOTER SECTION --> */
   .footer {
     background-color: #c3ce96; /* green-beige */
