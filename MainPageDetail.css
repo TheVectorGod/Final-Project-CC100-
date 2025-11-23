@@ -372,7 +372,9 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: flex-start;
         gap: 30px;
+        position: relative;
       }
         /* SHARED BOX STYLE */ 
         .donation-section, 
@@ -383,13 +385,16 @@ body {
           border-radius: 15px; 
           box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
           text-align: center; 
-        } 
-          .donation-section h2, 
-          .message-section h2 { 
-            margin-bottom: 10px; 
-            font-size: 28px; 
-            font-weight: 700; 
-          } 
+        }  
+        .support-image {
+          position: absolute;
+          right: 0px;
+          top: 0;
+        }
+        .support-image img {
+          width: 600px;
+          height: auto;
+        }
             .donation-section p, 
             .message-section p { 
               font-size: 15px; 
@@ -449,6 +454,7 @@ body {
                                 .msg-btn:hover { 
                                   background: #1f7e34; 
                                 }
+                      
 
 /* <!-- CONTACT SECTION --> */
   
