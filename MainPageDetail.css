@@ -329,7 +329,25 @@ body {
                           color: #444;
                           margin-top: auto;
                         }
-                          .story-section::before {
+                          .poster1 {
+                            position: absolute;
+                            left: 0px;
+                            max-width: none;
+                          }
+                            .poster2 {
+                              position: absolute;
+                              right: 0px;
+                              max-width: none;
+                            }
+                            /* .banners poster1{
+                              height: 10px;
+                              width: 10px;
+                              left: 0px;
+                              max-width: none;
+
+                            } */
+                        
+                          /* .story-section::before {
                             content: "";
                             position: absolute;
                             top: 50%;
@@ -352,7 +370,7 @@ body {
                               background-repeat: no-repeat;
                               opacity: 5.08;
                               transform: auto;
-                            }
+                            }  */
 
                               .story-section::before { left: 5%; }
                               .story-section::after { right: 5%; }
