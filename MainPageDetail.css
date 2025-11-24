@@ -345,13 +345,13 @@ body {
                               content: "";
                               position: absolute;
                               top: 50%;
-                              width: 500px;
+                              width: 250px;
                               height: 800px;
                               background-image: url('POSTER-2.png');
                               background-size: contain;
                               background-repeat: no-repeat;
                               opacity: 5.08;
-                              transform: translateY(-50%);
+                              transform: auto;
                             }
 
                               .story-section::before { left: 5%; }
