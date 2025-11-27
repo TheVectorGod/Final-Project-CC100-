@@ -4,7 +4,7 @@ html {
 }
 /*para nde lumampas sa sections*/
 section[id] {
-  scroll-margin-top: 200px;
+  scroll-margin-top: 145px;
 }
 
 body {
@@ -216,10 +216,10 @@ body {
   font-size: 18px;
 }
 .featured-section {
-  width: 94%;                       /* full width */
+  width: 94.5%;                       /* full width */
   min-height: 400px;                 /* adjust height */
   padding: 40px;
-  background: url('money.gif') center/cover no-repeat;
+  background: url('lights.gif') center/cover no-repeat;
   position: relative;                /* for overlay if needed */
 }
 
