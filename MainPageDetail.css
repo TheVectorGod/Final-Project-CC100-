@@ -481,6 +481,7 @@ story-section h2 {
   border: 1.5px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
+  resize: none;
 }
 .donation-form input:focus,
 .message-form input:focus,
