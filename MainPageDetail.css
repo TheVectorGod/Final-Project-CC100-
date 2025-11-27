@@ -216,10 +216,13 @@ body {
   font-size: 18px;
 }
 .featured-section {
-  min-width: 100vh;
+  width: 94%;                       /* full width */
+  min-height: 400px;                 /* adjust height */
   padding: 40px;
-  background-color: #e7e7c5;
+  background: url('money.gif') center/cover no-repeat;
+  position: relative;                /* for overlay if needed */
 }
+
 .featured-section h2 {
   text-align: center;
   font-size: 32px;
@@ -339,12 +342,13 @@ body {
                         }
                           .poster1 {
                             position: absolute;
-                            transform: translateX(25%);
+                            transform: translateX(10%);
+                            transform: translateY(0%);
                             max-width: none;
                           }
                             .poster2 {
                               position: absolute;
-                              transform: translateX(410%);
+                              transform: translateX(490%);
                               max-width: none;
                             }                       
 story-section h2 {
