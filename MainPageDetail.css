@@ -455,15 +455,6 @@ story-section h2 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.support-image {
-  position: absolute;
-  right: 0px;
-  top: 0;
-}
-.support-image img {
-  width: 600px;
-  height: auto;
-}
 .donation-section p,
 .message-section p {
   font-size: 15px;
@@ -525,6 +516,8 @@ story-section h2 {
   background: #1f7e34;
 }
 
+
+
 /* <!-- CONTACT SECTION --> */
 
 .contact-section {
@@ -537,6 +530,12 @@ story-section h2 {
 .contact-section a {
   color: #f7f7d5;
   text-decoration: underline;
+}
+
+.mascot {
+  right: 0px;
+  position: absolute;
+  transform: translateY(-45%);
 }
 
 .X-img:hover,
