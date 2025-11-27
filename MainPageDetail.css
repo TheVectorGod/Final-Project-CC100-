@@ -259,7 +259,7 @@ body {
   padding: 60px 20px; /* adds internal spacing */
   margin: 0; /* remove default spacing from browser */
 
-<<<<<<< HEAD
+
     position: relative;
     overflow: hidden;
   }
@@ -346,48 +346,8 @@ body {
                               position: absolute;
                               right: 0px;
                               max-width: none;
-                            }
-                            /* .banners poster1{
-                              height: 10px;
-                              width: 10px;
-                              left: 0px;
-                              max-width: none;
-
-                            } */
-                        
-                          /* .story-section::before {
-                            content: "";
-                            position: absolute;
-                            top: 50%;
-                            width: 1000px;
-                            height: 1000px;
-                            background-image: url('POSTER-1.png');
-                            background-size: contain;
-                            background-repeat: no-repeat;
-                            opacity: 5.08;
-                            transform: translateY(-50%);
-                          }
-                            .story-section::after {
-                              content: "";
-                              position: absolute;
-                              top: 50%;
-                              width: 250px;
-                              height: 800px;
-                              background-image: url('POSTER-2.png');
-                              background-size: contain;
-                              background-repeat: no-repeat;
-                              opacity: 5.08;
-                              transform: auto;
-                            }  */
-
-                              .story-section::before { left: 5%; }
-                              .story-section::after { right: 5%; }
-=======
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-}
-.story-section h2 {
+                            }                       
+story-section h2 {
   margin: 0 0 30px 0; /* bottom margin only */
   font-size: 36px;
 }
@@ -465,41 +425,6 @@ body {
   font-style: italic;
   color: #444;
   margin-top: auto;
-}
-.story-section::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 40vw;
-  height: 40vw;
-  max-width: 500px;
-  background-image: url("POSTER-1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  transform: translateY(-50%);
-  left: 5%;
-  z-index: -1;
-}
-.story-section::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 500px;
-  height: 800px;
-  background-image: url("POSTER-2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 5.08;
-  transform: translateY(-50%);
-}
->>>>>>> ed4b2b3e3c7a53545142b1e189cb461651bf4f11
-
-.story-section::before {
-  left: 5%;
-}
-.story-section::after {
-  right: 5%;
 }
 
 /* <!-- SUPPORT SECTION --> */
