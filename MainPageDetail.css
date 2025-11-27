@@ -339,12 +339,12 @@ body {
                         }
                           .poster1 {
                             position: absolute;
-                            transform: translateX(50%);
+                            transform: translateX(25%);
                             max-width: none;
                           }
                             .poster2 {
                               position: absolute;
-                              transform: translateX(450%);
+                              transform: translateX(410%);
                               max-width: none;
                             }                       
 story-section h2 {
